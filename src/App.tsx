@@ -1,8 +1,12 @@
+import { Header } from './components/Header/Header'
+import './global.css'
+import { BrowserRouter } from 'react-router-dom'
+
 export function App() {
 
   return (
-    <div>
-      <h1>Coffee Delivery</h1>
-    </div>
+    <BrowserRouter>
+      <Header />
+    </BrowserRouter>
   )
 }

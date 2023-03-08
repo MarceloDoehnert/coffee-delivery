@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  width: 9rem;
+  height: 2.375rem;
+  background: var(--purple-light);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--purple-dark);
+  gap: 4px;
+}
+
+.cart {
+  padding: 8px;
+  width: 2.375rem;
+  height: 2.375rem;
+  background: var(--yellow-light);
+  border-radius: 6px;
+}
