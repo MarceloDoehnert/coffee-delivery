@@ -1,6 +1,6 @@
 import Logo from '../../assets/logo-coffee-delivery.svg'
 import { NavLink } from 'react-router-dom'
-import {MapPin, ShoppingCart} from '@phosphor-icons/react'
+import { MapPin, ShoppingCart } from '@phosphor-icons/react'
 import styles from './Header.module.css'
 
 export function Header() {

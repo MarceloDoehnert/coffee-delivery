@@ -1,0 +1,66 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 5.625rem 10rem;
+  height: 33.75rem;
+}
+
+.banner_content {
+  width: 36.25rem;
+}
+
+.title {
+  font-family: 'Baloo 2';
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 130%;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 130%;
+  margin-bottom: 4.125rem;
+}
+
+.banner_image img {
+  width: 29.75rem;
+  height: 22.5rem;
+}
+
+.banner_icons {
+  display: flex;
+  height: 5.25rem;
+}
+
+.banner_icons span {
+  width: 2rem;
+  height: 2rem;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.banner_icons p {
+  width: 18.375rem;
+  height: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.cart {
+  background: var(--yellow-dark);
+}
+
+.package {
+  background: var(--base-text);
+}
+
+.timer {
+  background: var(--yellow);
+}
+
+.coffee {
+  background: var(--purple);
+}
